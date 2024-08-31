@@ -9,19 +9,20 @@ html {
   scroll-behavior: smooth; 
 }
 
+.container {
+  font-family: 'DMSans';
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 body {
   width: 100%;
   margin: 0;
   padding: 0;
   color: #ffffff;
   background-color: #000000;
-}
-
-.container {
   font-family: 'DMSans';
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 header {
@@ -31,6 +32,7 @@ header {
   align-items: center;
   padding: 20px;
   position: sticky;
+  top: 0;
 }
 
 /* General Navigation Styles */
@@ -154,14 +156,16 @@ nav {
 
 .projects h2 {
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .project-grid {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px; 
+  gap: 50px; 
   justify-content: center;
+  box-sizing: border-box; 
 }
 
 .project-item span {
@@ -179,8 +183,8 @@ nav {
 }
 
 .project-item a img {
-  width: 400px;
-  height: 200px;
+  width: 550px;
+  height: 275px;
   border-radius: 10px;
   margin-bottom: 10px;
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -197,6 +201,7 @@ nav {
   font-weight: normal;
   text-align: center; 
 }
+
 
 /* ABOUT SECTION */
 
@@ -307,13 +312,24 @@ nav {
   justify-content: center; 
 }
 
-.contact-list li {
-  margin: 0 25px;
+.contact-list a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px; 
+  color: #000000; 
+  background-color: #ffffff; 
+  border-radius: 5px;
+  text-decoration: none; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-.contact-list a {
-  font-size: 20px;
-  color: #ffffff; 
+.contact-list a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contact-list li {
+  margin: 0 25px;
 }
 
 
@@ -326,3 +342,4 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
