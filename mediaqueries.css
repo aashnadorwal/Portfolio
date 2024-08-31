@@ -8,6 +8,7 @@
 
   header {
     padding: 10px; 
+    position: sticky;
   }
 
   .logo {
@@ -52,11 +53,16 @@
   }
 
   .hero-content h1 {
-    font-size: 30px; 
+    font-size: 35px; 
   }
 
   .hero-content p {
-    font-size: 18px; 
+    font-size: 17px; 
+  }
+
+
+  .hero-content h3 {
+    font-size: 17px; 
   }
 
   .projects h2 {
@@ -64,7 +70,7 @@
   }
 
   .experience h2, .technicalskills h2, .contact h2 {
-    font-size: 24px; 
+    font-size: 25px; 
   }
 
   .project-item a img {
