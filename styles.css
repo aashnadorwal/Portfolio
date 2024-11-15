@@ -231,6 +231,10 @@ nav {
   text-align: center; 
 }
 
+.experience-item {
+  margin-bottom: 50px;
+}
+
 .experience h3 {
   font-size: 30px;
   margin-bottom: 30px;
