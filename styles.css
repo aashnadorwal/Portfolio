@@ -123,7 +123,7 @@ nav {
 }
 
 .hero-content h4 {
-  color: #808080;
+  color: #888888;
   text-align: right;
   justify-content: right;
   margin-bottom: -10px;
@@ -197,7 +197,7 @@ nav {
 .project-item h3 {
   margin-top: 5px;
   font-size: 1.2rem;
-  color: #808080; 
+  color: #888888; 
   font-weight: normal;
   text-align: center; 
 }
@@ -249,6 +249,8 @@ nav {
 .experience h4 {
   margin: 5px 0; 
   font-size: 20px;
+  color: #888888;
+
 }
 
 /* TECHNICAL SKILLS SECTION */
@@ -278,7 +280,7 @@ nav {
 }
 
 .skills-list ul {
-  color: #808080;
+  color: #888888;
   list-style-type: none;
   padding: 0;
 }
